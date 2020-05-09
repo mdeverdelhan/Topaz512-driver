@@ -6,6 +6,8 @@ Here is a simple Java library/driver for building commands to communicate with I
 ### Features
 
   * Fully compliant with Broadcom BCM20203T512 specification
+  * All Topaz512 commands implemented
+  * Integrity checking with optional CRC-16 computation
   * JDK 11 or later
   * MIT Licensed
 
@@ -22,12 +24,12 @@ Topaz512 t512 = new Topaz512();
 
 // Getting tag UID
 byte[] ridCommand = t512.buildRidCommand();
-byte[] tagUid = ...; // Send the RID command and get the tag UID
+byte[] tagUid = ...; // Send the RID command and get the tag UID in return
 
 // Reading 8 bytes at block 0x1A
 byte add8 = Topaz512.buildAdd8((byte) 0x1A);
 byte[] read8Command = t512.buildRead8Command(add8);
-byte[] read8Response = ...; // Send the READ8 command and get the 8 bytes
+byte[] read8Response = ...; // Send the READ8 command and get the 8 bytes in return
 ```
 
 ## About the Topaz512 tags
