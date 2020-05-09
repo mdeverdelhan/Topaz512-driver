@@ -37,8 +37,8 @@
 	</properties>
 
 	<scm>
-		<connection>scm:git:git://github.com/mdeverdelhan/Topaz512-driver.git</connection>
-		<developerConnection>scm:git:git@github.com:mdeverdelhan/Topaz512-driver.git</developerConnection>
+		<connection>scm:git:ssh://github.com/mdeverdelhan/Topaz512-driver.git</connection>
+		<developerConnection>scm:git:ssh://github.com:mdeverdelhan/Topaz512-driver.git</developerConnection>
 		<url>http://github.com/mdeverdelhan/Topaz512-driver</url>
 	</scm>
 
