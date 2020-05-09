@@ -32,7 +32,19 @@ byte[] read8Response = ...; // Send the READ8 command and get the 8 bytes
 
 ## About the Topaz512 tags
 
-TODO
+The BCM20203T512 (Topaz512) tags are [NFC](http://en.wikipedia.org/wiki/Near_field_communication) tags designed by [Broadcom Inc.](https://en.wikipedia.org/wiki/Broadcom_Inc.). They are [NFC Forum](https://nfc-forum.org/) Type 1 compliant tags.
+
+### Tag features
+
+  * Compliant with the NFC Forum Type 1 tag format
+  * Compatible with the [ISO/IEC 14443](https://en.wikipedia.org/wiki/ISO/IEC_14443):2001, Parts 2 and 3; ISO/IEC 14443 Type A modulation scheme
+  * Contactless operating Frequency: 13.56 MHz
+  * Read/write operation (8-byte read/write commands)
+  * Configurable for One Time Programmable (OTP) and Write Once Read Many (WORM) operation
+  * Data communication rate: 106 kbps
+  * Communication robustness: collision detection, 16-bit CRC integrity checking
+  * EEPROM based user read/write memory area organized as blocks of 8 bytes (7 bytes of Unique Identification (UID) number for use in data authentication/anticloning, 480 bytes of user read/write memory, 64 bits (8 bytes) of OTP memory)
+  * All memory areas are individually one time lockable by RF command (to produce read-only functionality)
 
 ## Donations
 
