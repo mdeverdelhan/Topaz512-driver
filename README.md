@@ -6,6 +6,8 @@ Here is a simple Java library/driver for building commands to communicate with I
 ### Features
 
   * Fully compliant with Broadcom BCM20203T512 specification
+  * All Topaz512 commands implemented
+  * Integrity checking with optional CRC-16 computation
   * JDK 11 or later
   * MIT Licensed
 
