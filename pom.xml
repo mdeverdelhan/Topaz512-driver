@@ -35,6 +35,11 @@
 					<target>${java.version}</target>
 				</configuration>
 			</plugin>
+			<!-- Update Surefire version to execute Junit5 tests with old Maven release -->
+			<plugin>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>2.22.0</version>
+			</plugin>
 		</plugins>
 	</build>
 
