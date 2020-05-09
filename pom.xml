@@ -9,6 +9,26 @@
 
 	<name>topaz512-driver</name>
 	<description>Driver for Innovision/Broadcom Topaz512 NFC tags</description>
+	<url>http://github.com/mdeverdelhan/Topaz512-driver</url>
+	<inceptionYear>2020</inceptionYear>
+	<developers>
+		<developer>
+			<name>Marc de Verdelhan</name>
+		</developer>
+	</developers>
+	<licenses>
+		<license>
+			<name>MIT License</name>
+			<comments>All source code is under the MIT license.</comments>
+		</license>
+	</licenses>
+	<issueManagement>
+		<system>GitHub</system>
+		<url>http://github.com/mdeverdelhan/Topaz512-driver/issues</url>
+	</issueManagement>
+	<ciManagement>
+		<url>http://github.com/mdeverdelhan/Topaz512-driver/actions</url>
+	</ciManagement>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -16,10 +36,16 @@
 		<java.version>11</java.version>
 	</properties>
 
+	<scm>
+		<connection>scm:git:git://github.com/mdeverdelhan/Topaz512-driver.git</connection>
+		<developerConnection>scm:git:git@github.com:mdeverdelhan/Topaz512-driver.git</developerConnection>
+		<url>http://github.com/mdeverdelhan/Topaz512-driver</url>
+	</scm>
+
 	<distributionManagement>
 		<repository>
 			<id>github</id>
-			<name>GitHub Packages</name>
+			<name>Topaz512 GitHub Packages</name>
 			<url>https://maven.pkg.github.com/mdeverdelhan/topaz512-driver</url>
 		</repository>
 	</distributionManagement>
