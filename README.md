@@ -3,7 +3,7 @@
 
 Here is a simple Java library/driver for building commands to communicate with Innovision/Broadcom Topaz512 NFC tags.
 
-### Features
+## Features
 
   * Fully compliant with Broadcom BCM20203T512 specification
   * All Topaz512 commands implemented
@@ -11,13 +11,29 @@ Here is a simple Java library/driver for building commands to communicate with I
   * JDK 11 or later
   * MIT Licensed
 
-### Build
+## Usage
 
-```bash
-~$ mvn clean package
+### Import as dependency
+
+Topaz512-driver is available on [Maven Central](http://search.maven.org/#search|ga|1|a%3A%22topaz512-driver%22). To use it, just import the following dependency in your `pom.xml` file.
+
+```xml
+<dependency>
+  <groupId>eu.verdelhan</groupId>
+  <artifactId>topaz512-driver</artifactId>
+  <version>1.0.0</version>
+</dependency>
 ```
 
-### Usage
+For ***snapshots***, add the following repository to your `pom.xml` file.
+```xml
+<repository>
+    <id>sonatype snapshots</id>
+    <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+</repository>
+```
+
+### Usage in code
 
 ```java
 Topaz512 t512 = new Topaz512();
