@@ -9,6 +9,7 @@ Here is a simple Java library/driver for building commands to communicate with I
   * All Topaz512 commands implemented
   * Integrity checking with optional CRC-16 computation
   * JDK 11 or later
+  * No third-party dependency
   * MIT Licensed
 
 ## Usage
