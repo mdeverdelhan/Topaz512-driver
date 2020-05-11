@@ -13,7 +13,7 @@ public class Crc16 {
      */
     public enum CrcType {
         CRC_A((short) 0x6363), // ITU-V.41
-        CRC_B((short) 0xFFFF); // ISO/IEC 13239 (formerly ISO/IEC 3309)
+        CRC_B((short) 0xFFFF); // a.k.a. CRC-16/X-25 - ISO/IEC 13239 (formerly ISO/IEC 3309)
         short seed;
         CrcType(short seed) {
             this.seed = seed;
