@@ -65,6 +65,3 @@ The BCM20203T512 (Topaz512) tags are [NFC](http://en.wikipedia.org/wiki/Near_fie
   * EEPROM based user read/write memory area organized as blocks of 8 bytes (7 bytes of Unique Identification (UID) number for use in data authentication/anticloning, 480 bytes of user read/write memory, 64 bits (8 bytes) of OTP memory)
   * All memory areas are individually one time lockable by RF command (to produce read-only functionality)
 
-## Donations
-
-Bitcoin address: 13BMqpqbzJ62LjMWcPGWrTrdocvGqifdJ3
